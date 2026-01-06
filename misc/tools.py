@@ -2911,7 +2911,7 @@ class BugHunterPro:
 
     def run(self, auto_confirm: bool = False) -> None:
         self.log("info", f"Starting scan on {self.target}")
-        print(f"\n🎯 Bug Hunter Pro V1.5.5 — Ultimate Auto Vuln Hunter")
+        print(f"\n🎯 Kamehameha Scanner")
         print(f"Target: {self.target}")
         if self.scope_regex:
             print(f"Scope Regex: {self.scope_regex}")
