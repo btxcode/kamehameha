@@ -816,7 +816,7 @@ class BugHunterPro:
 
         with open(os.path.join(run_report_dir, "report.json"), "w") as f:
             json.dump({"target": self.target, "total_score": self.total_score, "findings": self.findings}, f, indent=2)
-        with open(os.path.join(run_report_dir, "hackerone_report.md"), "w") as f:
+        with open(os.path.join(run_report_dir, "report.md"), "w") as f:
             f.write(self.generate_hackerone_report())
 
         csv_path = os.path.join(run_report_dir, "report.csv")
