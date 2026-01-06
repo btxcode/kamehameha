@@ -30,7 +30,7 @@ except ImportError:
     PLAYWRIGHT_AVAILABLE = False
 
 try:
-    import cloudscrapermi
+    import cloudscraper
     CLOUDSCRAPER_AVAILABLE = True
 except ImportError:
     CLOUDSCRAPER_AVAILABLE = False
