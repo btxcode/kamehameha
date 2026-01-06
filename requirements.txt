@@ -1,0 +1,24 @@
+requests
+beautifulsoup4
+tqdm
+colorama
+Wappalyzer
+python-dotenv
+urllib3
+playwright
+python-dateutil
+pyyaml
+dnspython
+cryptography
+whois
+pytest
+eel
+pytz
+pyautogui
+cloudscraper
+
+# Notes:
+# After installing playwright, run:
+#   playwright install
+# or to only install Chromium:
+#   playwright install chromium
